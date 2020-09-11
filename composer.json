@@ -1,0 +1,25 @@
+{
+    "name": "lokinsky/erpf",
+    "description": "ERP",
+    "type": "project",
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "Vladimit Lokinsky",
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "",
+        "guzzlehttp/guzzle": "~6.0",
+        "catfan/medoo": "*",
+        "defuse/php-encryption": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "" : "src/"
+        }
+    }
+}
